@@ -1,34 +1,54 @@
-# Copiloto de Vendas com IA
+# 🚀 Copiloto de Vendas com IA
 
-Projeto de demonstração para atendimento em loja, alinhado à lógica mostrada nos vídeos de cenário, estrutura de prompt e regras comerciais.
+Projeto de demonstração de um assistente de vendas com IA para atendimento em loja.
 
-## O que foi implementado
-- demo web com resposta estruturada por blocos
-- documentação do prompt principal
-- regras de comportamento do assistente
-- lógica de oferta principal, cross-sell e ancoragem
+A proposta da solução é apoiar vendedores durante o atendimento ao cliente, ajudando na organização da abordagem comercial, na recomendação de produtos e na definição da melhor próxima ação de venda.
 
-## Estrutura
-- `index.html`: interface da demo
-- `style.css`: layout e estilo
-- `script.js`: regras da demo
-- `prompt.md`: prompt principal do assistente
-- `regras.md`: regras comerciais e operacionais
+## ✨ Funcionalidades
 
-## Saída estruturada
-A demo gera:
-- resumo do interesse
-- diagnóstico de oportunidade
-- perguntas de qualificação
-- oferta principal recomendada
-- oferta complementar inteligente
-- estratégia de ancoragem
-- regras de ouro
-- primeira ação
+- Geração de resposta estruturada para atendimento
+- Identificação do interesse do cliente
+- Diagnóstico de oportunidade de venda
+- Perguntas de qualificação
+- Sugestão de oferta principal
+- Sugestão de oferta complementar
+- Estratégia de ancoragem de valor
+- Definição da próxima ação do vendedor
 
-## Como executar
-1. Baixe os arquivos
-2. Abra `index.html` no navegador
+## 📁 Arquivos do projeto
 
-## Texto para a plataforma
-Desenvolvi um Assistente de Vendas com IA para atendimento em loja, estruturado para apoiar vendedores em interações reais com clientes. A solução considera o cenário comercial, organiza o raciocínio da venda e gera uma resposta estruturada com resumo do interesse, diagnóstico de oportunidade, perguntas de qualificação, oferta principal, cross-sell inteligente, estratégia de ancoragem e próxima ação recomendada. O projeto conecta IA, prompt engineering e lógica comercial para aumentar a produtividade e a assertividade no atendimento.
+- `index.html` → interface da demonstração
+- `style.css` → estilização da aplicação
+- `script.js` → lógica da demo
+- `prompt.md` → estrutura principal do prompt
+- `regras.md` → regras de comportamento do assistente
+
+## ⚙️ Como funciona
+
+A aplicação simula um assistente de vendas com IA que recebe informações do cenário de atendimento e gera uma resposta organizada para ajudar o vendedor a conduzir a conversa com mais estratégia.
+
+A saída foi estruturada em blocos para facilitar o uso prático no contexto comercial.
+
+## 📊 Saída gerada pela demo
+
+- Resumo do interesse do cliente
+- Diagnóstico da oportunidade
+- Perguntas de qualificação
+- Oferta principal recomendada
+- Oferta complementar inteligente
+- Estratégia de ancoragem
+- Regras de ouro do atendimento
+- Primeira ação recomendada
+
+## ▶️ Como executar
+
+1. Baixe os arquivos do projeto
+2. Abra o arquivo `index.html` no navegador
+
+## 🎯 Objetivo
+
+Demonstrar como a IA pode ser aplicada no atendimento em loja para tornar o processo de vendas mais consultivo, produtivo e assertivo.
+
+## 📝 Descrição para entrega
+
+Desenvolvi um Assistente de Vendas com IA para atendimento em loja, criado para apoiar vendedores em interações reais com clientes. A solução organiza o raciocínio comercial e gera uma resposta estruturada com resumo do interesse, diagnóstico de oportunidade, perguntas de qualificação, oferta principal, oferta complementar, estratégia de ancoragem e próxima ação recomendada. O projeto conecta IA, prompt engineering e estratégia comercial para aumentar a produtividade e a assertividade no atendimento.
