@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assistente de Vendas com IA</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="hero">
+      <span class="badge">Projeto prático de IA aplicada a vendas</span>
+      <h1>Assistente de Vendas para Atendimento em Loja</h1>
+      <p>
+        Demo inspirada na estrutura mostrada nos vídeos: entendimento do cenário,
+        prompt estruturado e regras de comportamento para um vendedor consultivo.
+      </p>
+    </header>
+
+    <main class="layout">
+      <section class="panel">
+        <h2>Entradas do cenário</h2>
+
+        <div class="field-grid">
+          <label>
+            Tipo de loja
+            <select id="loja">
+              <option value="gamer">Loja gamer</option>
+              <option value="eletronicos">Eletrônicos</option>
+              <option value="informatica">Informática</option>
+            </select>
+          </label>
+
+          <label>
+            Interesse do cliente
+            <select id="interesse">
+              <option value="pc gamer">PC gamer</option>
+              <option value="notebook gamer">Notebook gamer</option>
+              <option value="notebook">Notebook</option>
+              <option value="teclado">Teclado</option>
+              <option value="mouse">Mouse</option>
+            </select>
+          </label>
+
+          <label>
+            Faixa de orçamento
+            <select id="orcamento">
+              <option value="baixo">Baixo ticket</option>
+              <option value="medio">Médio ticket</option>
+              <option value="alto">High ticket</option>
+            </select>
+          </label>
+
+          <label>
+            Uso principal
+            <select id="uso">
+              <option value="trabalho">Trabalho</option>
+              <option value="jogos">Jogos</option>
+              <option value="estudo">Estudo</option>
+              <option value="uso geral">Uso geral</option>
+            </select>
+          </label>
+
+          <label>
+            Perfil do cliente
+            <select id="perfil">
+              <option value="decidido">Decidido</option>
+              <option value="comparando">Comparando opções</option>
+              <option value="economico">Busca custo-benefício</option>
+              <option value="premium">Valoriza desempenho</option>
+            </select>
+          </label>
+        </div>
+
+        <button id="gerar">Gerar resposta estruturada</button>
+      </section>
+
+      <section class="panel">
+        <h2>Saída do assistente</h2>
+
+        <div class="output-card">
+          <h3>A) Resumo do interesse</h3>
+          <p id="resumo"></p>
+        </div>
+
+        <div class="output-card">
+          <h3>B) Diagnóstico de oportunidade</h3>
+          <p id="diagnostico"></p>
+        </div>
+
+        <div class="output-card">
+          <h3>C) Perguntas de qualificação</h3>
+          <ul id="perguntas"></ul>
+        </div>
+
+        <div class="output-card">
+          <h3>D) Oferta principal recomendada</h3>
+          <p id="ofertaPrincipal"></p>
+        </div>
+
+        <div class="output-card">
+          <h3>E) Oferta complementar inteligente</h3>
+          <p id="crossSell"></p>
+        </div>
+
+        <div class="output-card">
+          <h3>F) Estratégia de ancoragem</h3>
+          <p id="ancoragem"></p>
+        </div>
+
+        <div class="output-card">
+          <h3>G) Regras de ouro aplicadas</h3>
+          <ul id="regras"></ul>
+        </div>
+
+        <div class="output-card">
+          <h3>H) Primeira ação</h3>
+          <p id="primeiraAcao"></p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
